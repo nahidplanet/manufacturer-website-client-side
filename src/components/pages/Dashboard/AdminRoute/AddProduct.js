@@ -73,7 +73,7 @@ const AddProduct = () => {
           <div>
             <input
               type="file"
-              className="input input-bordered border-secondary w-full pt-2"
+              className="input input-bordered border-secondary w-full pt-2 rounded-md"
               {...register("image", {
                 required: {
                   value: true,
@@ -93,7 +93,7 @@ const AddProduct = () => {
             <input
               type="text"
               placeholder="Product Name"
-              className="input input-bordered border-secondary w-full"
+              className="input input-bordered border-secondary w-full rounded-md"
               {...register("name", {
                 required: {
                   value: true,
@@ -112,7 +112,7 @@ const AddProduct = () => {
           <div>
             <textarea
               type="text"
-              className="textarea input-bordered border-secondary w-full"
+              className="textarea input-bordered border-secondary w-full rounded-md"
               placeholder="Product Description"
               {...register("about", {
                 required: {
@@ -133,7 +133,7 @@ const AddProduct = () => {
             <input
               type="number"
               placeholder="Price"
-              className="input input-bordered border-secondary w-full"
+              className="input input-bordered border-secondary w-full rounded-md"
               {...register("price", {
                 required: {
                   value: true,
@@ -154,7 +154,7 @@ const AddProduct = () => {
               <input
                 type="number"
                 placeholder="Available Quantity"
-                className="input input-bordered border-secondary w-full"
+                className="input input-bordered border-secondary w-full rounded-md"
                 {...register("available", {
                   required: {
                     value: true,
@@ -174,7 +174,7 @@ const AddProduct = () => {
               <input
                 type="number"
                 placeholder="Minimum Order Quantity"
-                className="input input-bordered border-secondary w-full"
+                className="input input-bordered border-secondary w-full rounded-md"
                 {...register("minOrder", {
                   required: {
                     value: true,
@@ -191,7 +191,7 @@ const AddProduct = () => {
               </label>
             </div>
           </div>
-          <input type="submit" className="btn w-full" value="Add Product" />
+          <input type="submit" className="btn w-full rounded-md" value="Add Product" />
         </form>
       </div>
     </div>

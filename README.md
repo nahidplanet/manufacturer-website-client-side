@@ -31,5 +31,9 @@ we carry over 250 of the world's highest quality automotive parts brands across 
  live Site: [https://assignment-12-629a7.web.app]
 ## `Live Heroku Server`
  live Heroku server: [https://guarded-reaches-90530.herokuapp.com/] ;
+## `admin Email`
+ # email: `[ admin@gmail.com ]` ;
+## `admin Password`
+ # password: `[ 123456 ]` ;
 
  

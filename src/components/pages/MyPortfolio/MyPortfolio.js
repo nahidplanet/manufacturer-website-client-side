@@ -51,6 +51,11 @@ const MyPortfolio = () => {
                     <td>{`(8th Semester)`}</td>
                   </tr>
                   <tr>
+                    <th>4</th>
+                    <td>Email</td>
+                    <td colSpan={2}>sknahid.cc@gmail.com</td>
+                  </tr>
+                  <tr>
                     <th colSpan={4}>List of technology that i have skill</th>
                   </tr>
                   <tr>
@@ -113,53 +118,16 @@ const MyPortfolio = () => {
                     <td>1</td>
                     <td colSpan={3}><a className='text-blue-600' href="https://rayz-4f91e.web.app/">rayz</a></td>
                   </tr>
+                  
                   <tr>
                     <td>2</td>
-                    <td colSpan={3}><a className='text-blue-600' href="https://genius-car-service-954ef.web.app/" target="_blank">genius-car-service</a></td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
                     <td colSpan={3}><a className='text-blue-600' href="https://tourest-b1b53.web.app" target="_blank">tourest</a></td>
                   </tr>
+                  
                   <tr>
-                    <td>4</td>
-                    <td colSpan={3}><a className='text-blue-600' href="https://ema-john-e.netlify.app/" target="_blank">ema john</a></td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
+                    <td>3</td>
                     <td colSpan={3}><a className='text-blue-600' href="https://nakon-agency.netlify.app" target="_blank">nakon-agency</a></td>
                   </tr>
-                  <tr>
-                    <td>6</td>
-                    <td colSpan={3}><a className='text-blue-600' href="https://nahidplanet-3.netlify.app/" target="_blank">CTVS Convention Center</a></td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td colSpan={3}><a className='text-blue-600' href="https://nahidplanet.github.io/mission-2022/" target="_blank">Portfolio (HTML)</a></td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td colSpan={3}><a className='text-blue-600' href="https://nahidplanet.github.io/influencer-gear/" target="_blank">influencer-gear (HTML)</a></td>
-                  </tr>
-                  <tr>
-                    <td>9</td>
-                    <td colSpan={3}><a className='text-blue-600' href="https://nahidplanet.github.io/penguin-ecommerce/" target="_blank">Penguin-ecommerce (HTML)</a></td>
-                  </tr>
-                  <tr>
-                    <td>10</td>
-                    <td colSpan={3}><a className='text-blue-600' href="https://nahidplanet.github.io/multikart/" target="_blank">MultiKart (API)</a></td>
-                  </tr>
-                  <tr>
-                    <td>11</td>
-                    <td colSpan={3}><a className='text-blue-600' href="https://nahidplanet.github.io/weather-test/" target="_blank">Weather-test (API)</a></td>
-                  </tr>
-
-
-
-
-
-
-
                 </tbody>
               </table>
             </div>
