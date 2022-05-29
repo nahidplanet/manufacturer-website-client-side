@@ -1,0 +1,44 @@
+[debug] [2022-05-29T12:09:08.081Z] ----------------------------------------------------------------------
+[debug] [2022-05-29T12:09:08.083Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nahid Hasan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-29T12:09:08.083Z] CLI Version:   10.9.0
+[debug] [2022-05-29T12:09:08.083Z] Platform:      win32
+[debug] [2022-05-29T12:09:08.084Z] Node Version:  v16.14.2
+[debug] [2022-05-29T12:09:08.085Z] Time:          Sun May 29 2022 18:09:08 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-05-29T12:09:08.085Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-29T12:09:08.176Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-29T12:09:08.176Z] > authorizing via signed-in user (sknahid.cc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\web-development\programming-hero\html template\assignment\assignment-12-auto-parts\client
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-29T12:09:14.463Z] Using project from CLI flag: parts-store-76f8e
+[debug] [2022-05-29T12:09:14.467Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/parts-store-76f8e [none]
+[debug] [2022-05-29T12:09:15.147Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/parts-store-76f8e 403
+[debug] [2022-05-29T12:09:15.147Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/parts-store-76f8e {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-29T12:09:15.148Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-29T12:09:15.444Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Nahid Hasan\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Nahid Hasan\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project parts-store-76f8e. Please make sure the project exists and your account has permission to access it.
