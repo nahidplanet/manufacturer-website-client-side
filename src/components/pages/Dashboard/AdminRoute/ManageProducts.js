@@ -10,7 +10,7 @@ const ManageProducts = () => {
     isLoading,
     refetch,
   } = useQuery("manageProducts", () =>
-    fetch("https://protected-mountain-80420.herokuapp.com/products", {
+    fetch("https://guarded-reaches-90530.herokuapp.com/products", {
       method: "GET",
       headers: {
         "content-type": "application/json",

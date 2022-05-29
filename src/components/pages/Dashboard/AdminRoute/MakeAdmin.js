@@ -9,7 +9,7 @@ const MakeAdmin = () => {
     isLoading,
     refetch,
   } = useQuery("users", () =>
-    fetch("https://protected-mountain-80420.herokuapp.com/users", {
+    fetch("https://guarded-reaches-90530.herokuapp.com/users", {
       method: "GET",
       headers: {
         "content-type": "application/json",
@@ -22,7 +22,7 @@ const MakeAdmin = () => {
   }
   const handleMakeAdmin = (email) => {
     fetch(
-      `https://protected-mountain-80420.herokuapp.com/user/admin/${email}`,
+      `https://guarded-reaches-90530.herokuapp.com/user/admin/${email}`,
       {
         method: "PUT",
         headers: {

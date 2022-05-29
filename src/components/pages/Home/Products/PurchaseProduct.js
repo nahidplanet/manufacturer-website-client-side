@@ -9,7 +9,7 @@ import PurchaseForm from "./PurchaseForm";
 const PurchaseProduct = () => {
   const { id } = useParams();
   const { data: product, isLoading } = useQuery("product", () =>
-    fetch(`https://protected-mountain-80420.herokuapp.com/product/${id}`, {
+    fetch(`https://guarded-reaches-90530.herokuapp.com/product/${id}`, {
       method: "GET",
       headers: {
         "content-type": "application/json",

@@ -18,7 +18,7 @@ const CheckoutForm = ({ order }) => {
   const { totalPrice, _id, customerName, customerEmail, productName } = order;
   useEffect(() => {
     fetch(
-      "https://protected-mountain-80420.herokuapp.com/create-payment-intent",
+      "https://guarded-reaches-90530.herokuapp.com/create-payment-intent",
       {
         method: "POST",
         headers: {
@@ -80,7 +80,7 @@ const CheckoutForm = ({ order }) => {
         productName: productName,
         customerName: customerName,
       };
-      fetch(`https://protected-mountain-80420.herokuapp.com/order/${_id}`, {
+      fetch(`https://guarded-reaches-90530.herokuapp.com/order/${_id}`, {
         method: "PATCH",
         headers: {
           "content-type": "application/json",

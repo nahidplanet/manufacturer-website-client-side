@@ -30,7 +30,7 @@ const AddReview = () => {
       text: reviewText,
       rating: rating,
     };
-    fetch(`https://protected-mountain-80420.herokuapp.com/review`, {
+    fetch(`https://guarded-reaches-90530.herokuapp.com/review`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

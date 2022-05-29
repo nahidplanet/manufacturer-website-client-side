@@ -9,7 +9,7 @@ const MyProfile = () => {
   const [dbUser, setDbUser] = useState({});
   useEffect(() => {
     fetch(
-      `https://protected-mountain-80420.herokuapp.com/user/${user.email}`
+      `https://guarded-reaches-90530.herokuapp.com/user/${user.email}`
     ).then((res) =>
       res.json().then((data) => {
         setDbUser(data);

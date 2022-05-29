@@ -15,7 +15,7 @@ const ProfileUpdate = ({ email }) => {
       linkedIn: linkedIn,
     };
     fetch(
-      `https://protected-mountain-80420.herokuapp.com/updateUser/${email}`,
+      `https://guarded-reaches-90530.herokuapp.com/updateUser/${email}`,
       {
         method: "PUT",
         headers: {

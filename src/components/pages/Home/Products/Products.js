@@ -5,7 +5,7 @@ import Product from "./Product";
 
 const Products = () => {
   const { data: products, isLoading } = useQuery("products", () =>
-    fetch("http://localhost:5000/products").then(
+    fetch("https://guarded-reaches-90530.herokuapp.com/products").then(
       (res) => res.json()
     )
   );

@@ -1,10 +1,35 @@
-# [Parts Store Client Site](https://parts-store-76f8e.web.app/) 
-### website Live Link [https://parts-store-76f8e.web.app/](https://parts-store-76f8e.web.app/) 
 
-## Five Bullet point About This Project :
-### 1. This whole project done with ReactJs
-### 2. Implement authentication using firebase
-### 3. For Design this project i have used tailwind css and daisyui component library 
-### 4. using react hook form for input field validation
-### 5. implement card payment gateway by stripe 
+=========================================================
+# AUTO PARTS STORES
+## Find The Right Parts
 
+we carry over 250 of the world's highest quality automotive parts brands across 42 product catagories
+
+## `using library`
+* node js
+* express
+* cors
+* env
+* React Router
+* firebase
+* react Firebase Hooks
+* Toastify
+* Speanner
+* stripe
+* jsonwebtoken
+* Font Awesome ICon
+* Tailwind Css
+
+
+
+## `git client`
+ client: [https://github.com/programming-hero-web-course1/manufacturer-website-client-side-nahidplanet]
+## `git Server`
+ server: [https://github.com/programming-hero-web-course1/manufacturer-website-server-side-nahidplanet]
+
+## `Live Website`
+ live Site: [https://assignment-12-629a7.web.app]
+## `Live Heroku Server`
+ live Heroku server: [https://guarded-reaches-90530.herokuapp.com/] ;
+
+ 

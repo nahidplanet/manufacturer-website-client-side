@@ -38,7 +38,7 @@ const AddProduct = () => {
           available: available,
           minOrder: minOrder,
         };
-        fetch("https://protected-mountain-80420.herokuapp.com/product", {
+        fetch("https://guarded-reaches-90530.herokuapp.com/product", {
           method: "POST",
           headers: {
             "content-type": "application/json",

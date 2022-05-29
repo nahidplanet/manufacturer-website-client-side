@@ -11,7 +11,7 @@ const Dashboard = () => {
   const [dbUser, setDbUser] = useState({});
   useEffect(() => {
     const email = user?.email;
-    fetch(`https://protected-mountain-80420.herokuapp.com/user/${email}`, {
+    fetch(`https://guarded-reaches-90530.herokuapp.com/user/${email}`, {
       method: "GET",
       headers: {
         "content-type": "application/json",
