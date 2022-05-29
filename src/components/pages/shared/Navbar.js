@@ -1,6 +1,6 @@
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Link, NavLink } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import auth from "../../../firebase.init";
 import Loading from "./Loading";
 import { signOut } from "firebase/auth";
@@ -74,12 +74,12 @@ const Navbar = () => {
       </label>
       <div className="navbar-start">
         <Link to="/" className="">
-         <span className="font-bold text-3xl uppercase text-[#fff]">AUTO PARTS STORES</span>
+         <span className="font-bold lg:text-3xl text-xl uppercase text-[#fff]">AUTO PARTS STORES</span>
         </Link>
       </div>
       <div className="navbar-env ml-auto">
         <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal  gap-2">{navbarItems}</ul>
+          <ul className="menu menu-horizontal lg:text-white text-[#1B1464]  gap-2">{navbarItems}</ul>
         </div>
         <div className="dropdown dropdown-left">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -100,7 +100,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex="0"
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content lg:text-white text-[#1B1464] bg-white mt-3 p-2 shadow font-bold rounded-sm w-52"
           >
             {navbarItems}
           </ul>
