@@ -175,7 +175,7 @@ const AddProduct = () => {
                 type="number"
                 placeholder="Minimum Order Quantity"
                 className="input input-bordered border-secondary w-full rounded-md"
-                {...register("minOrder", {
+                {...register("minOrder",{
                   required: {
                     value: true,
                     message: "Minimum Order is Required",
